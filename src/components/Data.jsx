@@ -4,3 +4,5 @@ const Data = [
     {id:3 , name:'FoodTime' ,location:'karbala/al-hussain' , rate : 3},
 ]
 export default Data
+
+//this is my data file 

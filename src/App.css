@@ -5,7 +5,7 @@
 .App {
   text-align: center;
   background-color: #121212;
- 
+ height:100vh;
 }
 
 .App-logo {
@@ -50,14 +50,24 @@
 .App-link {
   color: #61dafb;
 }
-
+.main{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column
+}
 .mainContainer{
   background-color:#121212;
-  width:25%;
-  height:30%;
+  width:100%;
+  height:100%;
   display:flex;
   justify-content:center;
   aligin-items:center;
+
+}
+
+.mainCard{
+  display:flex;
 }
 
 .mainContainer .card{
